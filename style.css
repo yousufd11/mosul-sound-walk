@@ -20,3 +20,7 @@ nav { justify-content: flex-start; flex-wrap: wrap; }
 button { padding: 8px 12px; border: 1px solid #998a74; background: transparent; color: inherit; border-radius: 3px; cursor: pointer; }
 button[aria-pressed=true] { background: #59432e; color: white; }
 footer { border-top: 1px solid #bbac94; margin-top: 24px; padding-top: 12px; color: #655d52; font-size: 12px; }
+
+#frame { background: #201d22; }
+#scene { height: clamp(280px, 48vh, 540px); object-fit: contain; }
+@keyframes drift { to { transform: scale(1.025); } }

@@ -1,12 +1,12 @@
 const audio = document.querySelector('#walk');
 const photo = document.querySelector('#scene');
 const stops = document.querySelectorAll('[data-stop]');
-const pictures = ['tea.svg', 'lane.svg', 'river.svg'];
-const labels = ['01 / Tea stall', '02 / Side street', '03 / Tigris bank'];
+const pictures = ['dinner.jpg', 'traffic.jpg', 'lights.jpg'];
+const labels = ['01 / Dinner', '02 / In traffic', '03 / Purple lights'];
 const descriptions = [
-  'A small glass of amber tea on the counter of a street stall.',
-  'Sunlight falls between two rows of doorways along a narrow lane.',
-  'Birds cross the sky above the Tigris and a low skyline.'
+  'Plates of meat, tomatoes and pickles on a restaurant table.',
+  'Cars waiting under amber streetlights, with green road signs ahead.',
+  'Purple and blue lights arching over the road at night.'
 ];
 let current = 0;
 
